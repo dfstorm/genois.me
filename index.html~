@@ -1,0 +1,206 @@
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <title>Gabriel Genois - Personal page</title>
+    <meta property="og:title" content="Gabriel Genois - Personal page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://genois.me/" />
+    <meta property="og:image" content="http://genois.me/assets/images/gabriel_genois.jpg" />
+  </head>
+  <body onload="document.body.style.opacity='1'">
+    <div class = "main">
+      <div class = "wrapper">
+        <h1>Hi, I'm Gabriel</h1>
+        <p>
+          I create PHP applications, install and maintain Web Servers and give security advices.
+        </p>
+        
+        <div class="subContainer">
+          <div>
+          <a href="https://hubz.tk/channel/gabrielgenois">
+            <img src="hubzilla.png" />
+            <h2>My blog</h2>
+            <p>
+              On hubzilla, a federated instance. 
+            </p>
+            
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/dfstorm">
+              <img src="GitHub.png" />
+              <h2>Github</h2>
+              <p>For the more technical of us</p>
+            </a>
+          </div>
+        </div>
+        <p class="subText">Want to get in touch ? <a href="mailto:gabriel@genois.me">let's talk</a></p>
+      </div>
+    </div>
+    <style>
+    @font-face {
+      font-family: AileronLight;
+      src: url(Aileron-Light.otf);
+    }
+    
+    body {
+      background-color: #0a53cd;
+      color:#fff;
+      font-family: AileronLight;
+      margin: 20px;
+      padding: 0px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-size: 2em;
+    }
+    img {
+      width: 
+    }
+    
+    .subContainer h2 {
+        font-size: 1.6em;
+        margin: 0px;
+        padding: 0px;
+      
+        
+      }
+      .subContainer p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 1em;
+        max-width: 340px;
+        min-width: 300px;
+      }
+      .subContainer > div > a {
+        opacity: 1;
+        float:left;
+        
+      }
+      .subContainer img {
+        float:left;
+        width: 40px;
+        margin: 10px 10px 0px 0px;
+      }
+      .subContainer a:hover {
+        opacity: 0.8;
+        
+        
+      }
+      a {
+        transition: opacity 0.3s ease;
+        color: #fff;
+        opacity: 0.6;
+        text-decoration: none;
+    
+
+      }
+      
+    .subContainer  {
+        float:left;
+        width: 100%;
+      }
+      .subContainer div {
+        float:left;
+        margin-top: 20px;
+        max-width: 330px;
+      }
+    
+    .subContainer img {
+        float:left;
+        width: 40px;
+        margin: 10px 10px 0px 0px;
+      }
+    .subText {
+      float:left;
+      padding-top: 20px;
+      font-size: 1.4em;
+      }
+    @media (min-width: 880px) {
+      #main {
+        margin: 50px auto;
+        width: 800px;
+      }
+      body {
+        opacity:0;
+        transition: opacity 1.5s ease;
+      }
+      html, body {
+        height: 100%;
+        background-color: #0a53cd;
+        color:#fff;
+        font-family: AileronLight;
+        margin: 0px;
+        padding: 0px;
+      }
+      .main {
+          height: 100%;
+          display: table;
+          margin: 0px auto;
+          width: 800px;
+      }
+      .wrapper {
+          display: table-cell;
+          height: 100%;
+          vertical-align: middle;
+      }
+      h1 {
+        font-size: 3em;
+      }
+      p {
+        font-size: 2em;
+        line-height: 1.6em;
+        font-weight: light;
+        
+      }
+      .subContainer  {
+        float:left;
+        width: 100%;
+      }
+      .subContainer div {
+        float:left;
+        width: 330px;
+      }
+    
+      .subContainer h2 {
+        font-size: 1.6em;
+        margin: 0px;
+        padding: 0px;
+      }
+      .subContainer p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 1em;
+        width: 340px;
+      }
+      .subContainer > div > a {
+        opacity: 1;
+        float:left;
+      }
+      .subContainer img {
+        float:left;
+        width: 40px;
+        margin: 10px 10px 0px 0px;
+      }
+      .subContainer a:hover {
+        opacity: 0.8;
+      }
+      a {
+        transition: opacity 0.3s ease;
+        color: #fff;
+        opacity: 0.6;
+        text-decoration: none;
+      }
+      a:hover {
+        opacity: 1;
+      }
+      .subText {
+      float:left;
+      padding-top: 20px;
+      font-size: 1.4em;
+      }
+    }
+  </style>
+  </body>
+</html>
